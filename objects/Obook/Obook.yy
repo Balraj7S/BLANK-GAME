@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oBackground",
+  "%Name":"Obook",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBackground",
+  "name":"Obook",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spbackground",
-    "path":"sprites/spbackground/spbackground.yy",
+    "name":"spbook",
+    "path":"sprites/spbook/spbook.yy",
   },
   "spriteMaskId":null,
   "visible":true,
