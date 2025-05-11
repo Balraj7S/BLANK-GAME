@@ -14,9 +14,9 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_673B89A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_673B89A1","objectId":{"name":"oBackground","path":"objects/oBackground/oBackground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":64.0,"scaleY":11.0,"x":0.0,"y":672.0,},
-        {"$GMRInstance":"v2","%Name":"inst_EDA048D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EDA048D","objectId":{"name":"ograss","path":"objects/ograss/ograss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":64.0,"scaleY":1.0,"x":0.0,"y":640.0,},
-        {"$GMRInstance":"v2","%Name":"inst_35A3653E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35A3653E","objectId":{"name":"obackground1","path":"objects/obackground1/obackground1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":63.999996,"scaleY":20.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_673B89A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_673B89A1","objectId":{"name":"oBackground","path":"objects/oBackground/oBackground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":95.99999,"scaleY":11.0,"x":0.0,"y":672.0,},
+        {"$GMRInstance":"v2","%Name":"inst_EDA048D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EDA048D","objectId":{"name":"ograss","path":"objects/ograss/ograss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":96.0,"scaleY":1.0,"x":0.0,"y":640.0,},
+        {"$GMRInstance":"v2","%Name":"inst_35A3653E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35A3653E","objectId":{"name":"obackground1","path":"objects/obackground1/obackground1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":95.99999,"scaleY":20.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_6713DD0A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6713DD0A","objectId":{"name":"ogooserun","path":"objects/ogooserun/ogooserun.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.92,"scaleY":2.92,"x":0.0,"y":640.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
@@ -39,7 +39,7 @@
     "Height":1024,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":2048,
+    "Width":3072,
   },
   "sequenceId":null,
   "views":[
