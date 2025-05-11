@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spchickenjump",
-    "path":"sprites/spchickenjump/spchickenjump.yy",
+    "name":"spgoosejump",
+    "path":"sprites/spgoosejump/spgoosejump.yy",
   },
   "spriteMaskId":null,
   "visible":true,

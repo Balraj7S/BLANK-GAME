@@ -3,6 +3,7 @@
   "%Name":"ogooserun",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ogooserun",
@@ -30,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spduckrun",
-    "path":"sprites/spduckrun/spduckrun.yy",
+    "name":"spgooserun",
+    "path":"sprites/spgooserun/spgooserun.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spgooserun",
+    "path":"sprites/spgooserun/spgooserun.yy",
+  },
   "visible":true,
 }
