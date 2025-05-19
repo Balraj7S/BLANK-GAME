@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spclouds",
-    "path":"sprites/spclouds/spclouds.yy",
+    "name":"spcloud",
+    "path":"sprites/spcloud/spcloud.yy",
   },
   "spriteMaskId":null,
   "visible":true,

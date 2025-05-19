@@ -46,7 +46,7 @@
     {"id":{"name":"spbackground","path":"sprites/spbackground/spbackground.yy",},},
     {"id":{"name":"spbackground1","path":"sprites/spbackground1/spbackground1.yy",},},
     {"id":{"name":"spbook","path":"sprites/spbook/spbook.yy",},},
-    {"id":{"name":"spclouds","path":"sprites/spclouds/spclouds.yy",},},
+    {"id":{"name":"spcloud","path":"sprites/spcloud/spcloud.yy",},},
     {"id":{"name":"spgoosejump","path":"sprites/spgoosejump/spgoosejump.yy",},},
     {"id":{"name":"spgooserun","path":"sprites/spgooserun/spgooserun.yy",},},
     {"id":{"name":"spgrass","path":"sprites/spgrass/spgrass.yy",},},
