@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"OBackground",
+  "%Name":"Okiwirun",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBackground",
+  "name":"Okiwirun",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spbackground",
-    "path":"sprites/spbackground/spbackground.yy",
+    "name":"spkiwirun",
+    "path":"sprites/spkiwirun/spkiwirun.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spkiwirun",
+    "path":"sprites/spkiwirun/spkiwirun.yy",
+  },
   "visible":true,
 }
