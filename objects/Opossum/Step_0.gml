@@ -1,5 +1,8 @@
-x -= 5; // Move left
+if (!global.game_over) 
+{
+    // Move to the left
+    x -= hsp;
 
-if (x < -sprite_width) {
-    instance_destroy(); // Remove if off screen
+   
+   
 }

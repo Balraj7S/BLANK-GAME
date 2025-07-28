@@ -1,1 +1,2 @@
-y = 532; // Set height directly on spawn
+// Set initial speed
+hsp = 7; // horizontal speed

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Okiwijump",
+  "%Name":"OKiwijump",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Okiwijump",
+  "name":"OKiwijump",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
