@@ -1,13 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"OKiwirun",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"OPossum","path":"objects/OPossum/OPossum.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"OKiwirun",
   "overriddenProperties":[],
@@ -34,12 +28,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spkiwirun",
-    "path":"sprites/spkiwirun/spkiwirun.yy",
+    "name":"SpKiwirun",
+    "path":"sprites/SpKiwirun/SpKiwirun.yy",
   },
   "spriteMaskId":{
-    "name":"spkiwirun",
-    "path":"sprites/spkiwirun/spkiwirun.yy",
+    "name":"SpKiwirun",
+    "path":"sprites/SpKiwirun/SpKiwirun.yy",
   },
   "visible":true,
 }

@@ -1,4 +1,5 @@
-if (!global.game_over) {
+if (!global.game_over)
+{
     x -= global.goose_speed / 4;
 
     if (x < -sprite_width) 

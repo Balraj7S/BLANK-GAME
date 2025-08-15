@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spgrass",
-    "path":"sprites/spgrass/spgrass.yy",
+    "name":"SpGrass",
+    "path":"sprites/SpGrass/SpGrass.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spbackground1",
-    "path":"sprites/spbackground1/spbackground1.yy",
+    "name":"SpSky",
+    "path":"sprites/SpSky/SpSky.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spbackground",
-    "path":"sprites/spbackground/spbackground.yy",
+    "name":"SpGround",
+    "path":"sprites/SpGround/SpGround.yy",
   },
   "spriteMaskId":null,
   "visible":true,

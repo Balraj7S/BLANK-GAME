@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spkiwijump",
-    "path":"sprites/spkiwijump/spkiwijump.yy",
+    "name":"SpKiwijump",
+    "path":"sprites/SpKiwijump/SpKiwijump.yy",
   },
   "spriteMaskId":null,
   "visible":true,
