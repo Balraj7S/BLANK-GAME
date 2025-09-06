@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object17",
-  "eventList":[],
+  "%Name":"ORule",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":77,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object17",
+  "name":"ORule",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite13",
-    "path":"sprites/Sprite13/Sprite13.yy",
+    "name":"SpRules",
+    "path":"sprites/SpRules/SpRules.yy",
   },
   "spriteMaskId":null,
   "visible":true,

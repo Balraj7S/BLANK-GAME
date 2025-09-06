@@ -1,9 +1,11 @@
-if (!global.game_over)
-{
-    x -= global.goose_speed / 4;
 
-    if (x < -sprite_width) 
-	{
-        x = room_width + 50;
-    }
-}
+if (!global.game_over)
+ {
+        x -= global.kakariki_speed / 4;
+
+        if (x < -sprite_get_width(sprite_index))
+        {
+            x = room_width + 50;
+        }
+ }
+

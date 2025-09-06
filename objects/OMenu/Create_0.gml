@@ -1,25 +1,22 @@
-//Menu setup
-
-gui_width = display_get_gui_width();
-gui_height = display_get_gui_height();
-gui_margin = 32;
-
-menu_x = gui_width+200;
-menu_y = gui_height - gui_margin;
-menu_x_target = gui_width - gui_margin;
-menu_speed = 25; //lower is faster
-menu_font = fntMenu;
-menu_itemheight = font_get_size(fntMenu); // helps change font withoiut interfering with positioning 
-menu_committed = -1
-menu_control = true
+// Menu setup
 
 
-menu[1] = "Start Game";
+menu_x = room_width + 100;   // Center horizontally
+menu_y = room_height / 2;  // Center vertically
+menu_x_target = room_width / 2;
+
+menu_speed = 40;// Speed of menu slide lower = faster
+
+menu_font = fntMenu; 
+menu_itemheight = font_get_size(fntMenu); // Dynamic height for spacing
+menu_committed = -1; // Stores chosen option -1 = none yet
+menu_control = true; // Allows menu input
+
+// Menu items
+menu[2] = "Start Game";
+menu[1] = "Rules";
 menu[0] = "Quit";
 
-menu_items = array_length(menu);
-menu_cursor = 1;
-
-
-
+menu_items = array_length(menu); // Number of items
+menu_cursor = 2; // Default item
 

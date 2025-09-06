@@ -1,43 +1,43 @@
-
+// Smoothly move menu towards target position
 menu_x += (menu_x_target - menu_x) / menu_speed;
 
-//Keyboard Controls 
+// Keyboard controls for menu
 if (menu_control)
 {
-	if (keyboard_check_pressed(vk_up))
-	{
-		menu_cursor++;
-		if (menu_cursor >= menu_items) menu_cursor = 0;
-	}
-	
-	if (keyboard_check_pressed(vk_down))
-	{
-		menu_cursor--;
-		if (menu_cursor < 0) menu_cursor = menu_items -1;
-	}
-	
-	if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))
-
-	{
-		menu_x_target = gui_width+200;
-		menu_committed = menu_cursor ; 
-		
-		menu_control = false;
-	
-	}
+    // Move cursor down when pressing up  key
+    if (keyboard_check_pressed(vk_up))
+    {
+        menu_cursor++;
+        if (menu_cursor >= menu_items) menu_cursor = 0; // Loop to the top
+    }
+    
+    // Move cursor up when pressing Down key
+    if (keyboard_check_pressed(vk_down))
+    {
+        menu_cursor--;
+        if (menu_cursor < 0) menu_cursor = menu_items -1; // loops to bottom
+    }
+    
+    // Select option when pressing enter or space
+    if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))
+    { 
+        menu_x_target = room_width + 100; // Slide menu off screen
+        menu_committed = menu_cursor;  // Store chosen option
+        menu_control = false;          // Disable input until finished
+    }
 }
 
-if ((menu_x > gui_width+150) && (menu_committed != -1))
+// Run the chosen option once menu is off screen
+if ((menu_x > room_width + 50) and (menu_committed != -1))
 {
-	switch (menu_committed)
-{
-	case 1: room_goto(Room1);
-    break;
-
-
-    case 0: // "Quit"
+    switch (menu_committed)
+    {
+        case 2: room_goto(Rmain); // Go to game room
+        break;
+		case 1: room_goto(Rrules);
+		break;
+        case 0: // Quit game
         game_end(); 
         break;
-}
-
+    }
 }

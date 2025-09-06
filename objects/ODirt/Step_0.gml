@@ -1,5 +1,8 @@
-x -= global.goose_speed;
 
-if (x <= -sprite_width) {
-    x += sprite_width * 1; 
-}
+	x -= global.kakariki_speed;
+	
+	if (x <= -sprite_width) 
+	{
+	 x += sprite_width * 1; 
+	}
+

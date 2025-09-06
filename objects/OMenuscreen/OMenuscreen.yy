@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OKiwirun",
+  "%Name":"OMenuscreen",
   "eventList":[],
   "managed":true,
-  "name":"OKiwirun",
+  "name":"OMenuscreen",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SpKiwirun",
-    "path":"sprites/SpKiwirun/SpKiwirun.yy",
+    "name":"SpMenuscreen",
+    "path":"sprites/SpMenuscreen/SpMenuscreen.yy",
   },
-  "spriteMaskId":{
-    "name":"SpKiwirun",
-    "path":"sprites/SpKiwirun/SpKiwirun.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
